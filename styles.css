@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;   
+}
+
+p {
+    max-width: 300px;
+    text-align: center;
+}
+
+a {
+    color: rgb(170, 6, 170);
+}
+
+.container {
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+
+.button-1 {
+    padding:  5px 10px;
+    background-color: rgb(212, 48, 212);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in
+}
+
+.button-1:hover {
+    /* background-color: rgb(49, 47, 45); */
+    background-color: rgb(170, 6, 170);
+
+}
